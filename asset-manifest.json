@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/insurance-react-practices/static/css/main.d498bfb3.chunk.css",
+    "main.js": "/insurance-react-practices/static/js/main.4ef76e21.chunk.js",
+    "main.js.map": "/insurance-react-practices/static/js/main.4ef76e21.chunk.js.map",
+    "runtime-main.js": "/insurance-react-practices/static/js/runtime-main.3eec98ac.js",
+    "runtime-main.js.map": "/insurance-react-practices/static/js/runtime-main.3eec98ac.js.map",
+    "static/js/2.0bea2ab4.chunk.js": "/insurance-react-practices/static/js/2.0bea2ab4.chunk.js",
+    "static/js/2.0bea2ab4.chunk.js.map": "/insurance-react-practices/static/js/2.0bea2ab4.chunk.js.map",
+    "index.html": "/insurance-react-practices/index.html",
+    "precache-manifest.da8efa6b40fa557bfaf5b6a02b57cc2f.js": "/insurance-react-practices/precache-manifest.da8efa6b40fa557bfaf5b6a02b57cc2f.js",
+    "service-worker.js": "/insurance-react-practices/service-worker.js",
+    "static/css/main.d498bfb3.chunk.css.map": "/insurance-react-practices/static/css/main.d498bfb3.chunk.css.map",
+    "static/js/2.0bea2ab4.chunk.js.LICENSE": "/insurance-react-practices/static/js/2.0bea2ab4.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3eec98ac.js",
+    "static/js/2.0bea2ab4.chunk.js",
+    "static/css/main.d498bfb3.chunk.css",
+    "static/js/main.4ef76e21.chunk.js"
+  ]
+}
