@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
-import AppContainer from './components/AppContainer'
+import AppContainer from './components/AppContainer';
 
 function App() {
   return (
