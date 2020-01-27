@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/insurance-react-practices/static/css/main.e78c0ab2.chunk.css",
-    "main.js": "/insurance-react-practices/static/js/main.a1cdc6bb.chunk.js",
-    "main.js.map": "/insurance-react-practices/static/js/main.a1cdc6bb.chunk.js.map",
+    "main.js": "/insurance-react-practices/static/js/main.e49058f7.chunk.js",
+    "main.js.map": "/insurance-react-practices/static/js/main.e49058f7.chunk.js.map",
     "runtime-main.js": "/insurance-react-practices/static/js/runtime-main.3eec98ac.js",
     "runtime-main.js.map": "/insurance-react-practices/static/js/runtime-main.3eec98ac.js.map",
     "static/js/2.5bf4d3ba.chunk.js": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js",
     "static/js/2.5bf4d3ba.chunk.js.map": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js.map",
     "index.html": "/insurance-react-practices/index.html",
-    "precache-manifest.ace0890b3c40341031913c2cb70260b0.js": "/insurance-react-practices/precache-manifest.ace0890b3c40341031913c2cb70260b0.js",
+    "precache-manifest.70f1c46df655d8c2ea008821fe22d2c3.js": "/insurance-react-practices/precache-manifest.70f1c46df655d8c2ea008821fe22d2c3.js",
     "service-worker.js": "/insurance-react-practices/service-worker.js",
     "static/css/main.e78c0ab2.chunk.css.map": "/insurance-react-practices/static/css/main.e78c0ab2.chunk.css.map",
     "static/js/2.5bf4d3ba.chunk.js.LICENSE": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3eec98ac.js",
     "static/js/2.5bf4d3ba.chunk.js",
     "static/css/main.e78c0ab2.chunk.css",
-    "static/js/main.a1cdc6bb.chunk.js"
+    "static/js/main.e49058f7.chunk.js"
   ]
 }

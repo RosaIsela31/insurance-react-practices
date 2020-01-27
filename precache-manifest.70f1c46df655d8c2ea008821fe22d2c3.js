@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a073510e0c01f5f4b4a6341db8f1aad9",
+    "revision": "d161843608ab0ba77df7f5bd124e6308",
     "url": "/insurance-react-practices/index.html"
   },
   {
-    "revision": "32c1824a9951ce051b13",
+    "revision": "d13d47345a2ce99ccdd1",
     "url": "/insurance-react-practices/static/css/main.e78c0ab2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js.LICENSE"
   },
   {
-    "revision": "32c1824a9951ce051b13",
-    "url": "/insurance-react-practices/static/js/main.a1cdc6bb.chunk.js"
+    "revision": "d13d47345a2ce99ccdd1",
+    "url": "/insurance-react-practices/static/js/main.e49058f7.chunk.js"
   },
   {
     "revision": "6b6d85174cc2b40eda9a",
