@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/insurance-react-practices/static/css/main.e78c0ab2.chunk.css",
-    "main.js": "/insurance-react-practices/static/js/main.da42efd8.chunk.js",
-    "main.js.map": "/insurance-react-practices/static/js/main.da42efd8.chunk.js.map",
+    "main.js": "/insurance-react-practices/static/js/main.a1cdc6bb.chunk.js",
+    "main.js.map": "/insurance-react-practices/static/js/main.a1cdc6bb.chunk.js.map",
     "runtime-main.js": "/insurance-react-practices/static/js/runtime-main.3eec98ac.js",
     "runtime-main.js.map": "/insurance-react-practices/static/js/runtime-main.3eec98ac.js.map",
-    "static/js/2.befa795c.chunk.js": "/insurance-react-practices/static/js/2.befa795c.chunk.js",
-    "static/js/2.befa795c.chunk.js.map": "/insurance-react-practices/static/js/2.befa795c.chunk.js.map",
+    "static/js/2.5bf4d3ba.chunk.js": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js",
+    "static/js/2.5bf4d3ba.chunk.js.map": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js.map",
     "index.html": "/insurance-react-practices/index.html",
-    "precache-manifest.6e9e08bf01476d696b27bbeb1898d855.js": "/insurance-react-practices/precache-manifest.6e9e08bf01476d696b27bbeb1898d855.js",
+    "precache-manifest.ace0890b3c40341031913c2cb70260b0.js": "/insurance-react-practices/precache-manifest.ace0890b3c40341031913c2cb70260b0.js",
     "service-worker.js": "/insurance-react-practices/service-worker.js",
     "static/css/main.e78c0ab2.chunk.css.map": "/insurance-react-practices/static/css/main.e78c0ab2.chunk.css.map",
-    "static/js/2.befa795c.chunk.js.LICENSE": "/insurance-react-practices/static/js/2.befa795c.chunk.js.LICENSE"
+    "static/js/2.5bf4d3ba.chunk.js.LICENSE": "/insurance-react-practices/static/js/2.5bf4d3ba.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.3eec98ac.js",
-    "static/js/2.befa795c.chunk.js",
+    "static/js/2.5bf4d3ba.chunk.js",
     "static/css/main.e78c0ab2.chunk.css",
-    "static/js/main.da42efd8.chunk.js"
+    "static/js/main.a1cdc6bb.chunk.js"
   ]
 }
