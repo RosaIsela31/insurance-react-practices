@@ -53,6 +53,7 @@ const Error = styled.div`
 `;
 
 const Formulario = ({ guardarResumen }) => {
+
   const [ datos, guardarDatos ] = useState({
     marca: '',
     year: '',
@@ -88,7 +89,6 @@ const Formulario = ({ guardarResumen }) => {
 
     // Obtener la diferencia de años
     const diferencia = obtenerDiferenciaYear(year);
-    console.log(diferencia);
     
     // Por cada año, restar el 3%
     resultado -= ((diferencia * 3) * resultado) / 100;
@@ -96,33 +96,28 @@ const Formulario = ({ guardarResumen }) => {
     // Americano 15%
     // Asiatico 5%
     // Europeo 30% 
-    resultado = calcularMarca(marca) * resultado;
-    console.log(resultado);
-    
+    resultado = calcularMarca(marca) * resultado;    
 
     // Plan básico aumenta  20%
     // Plan completo aumenta 50%
     const incrementoPlan = obtenerPlan(plan)
     resultado = parseFloat( incrementoPlan * resultado ).toFixed(2); 
-    
     console.log(resultado);
+    
 
     // Total
     guardarResumen({
-      cotización: resultado,
-      datos: {
+      cotización: Number(resultado),
         datos
-      }
-      
     })
-
   }
 
   return ( 
     <form
-      onSubmit={cotizarSeguro}
+        onSubmit={cotizarSeguro}
     >
     {error ? <Error>Todos los campos son obligatorios</Error> : null}
+
       <Campo>
         <Label>Marca</Label>
         <Select

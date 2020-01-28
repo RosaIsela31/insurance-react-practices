@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import Header from './Header';
 import Formulario from './Formulario';
 import Resumen from './Resumen';
-
+import Resultado from './Resultado';
 
 const Contenedor = styled.div`
   max-width: 600px;
@@ -16,6 +16,7 @@ const ContenedorFormulario = styled.div`
 `
 
 const AppContainer = () => {
+  
   const [ resumen, guardarResumen ] = useState({
     cotizacion: 0,
     datos: {
@@ -27,7 +28,7 @@ const AppContainer = () => {
 
   // Extraer datos 
    
-  const { datos } = resumen;
+  const { cotizacion, datos } = resumen;
 
   return ( 
     <Contenedor>
@@ -40,6 +41,9 @@ const AppContainer = () => {
         /> 
         <Resumen
           datos={datos} 
+        />
+        <Resultado 
+          cotizacion={cotizacion}
         />
 
       </ContenedorFormulario>
