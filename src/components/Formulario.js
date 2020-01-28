@@ -110,7 +110,7 @@ const Formulario = ({ guardarResumen }) => {
       cotización: Number(resultado),
         datos
     })
-  }
+  };
 
   return ( 
     <form
