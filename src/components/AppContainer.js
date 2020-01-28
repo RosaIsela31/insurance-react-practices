@@ -4,6 +4,7 @@ import Header from './Header';
 import Formulario from './Formulario';
 import Resumen from './Resumen';
 import Resultado from './Resultado';
+import Spinner from './Spinner';
 
 const Contenedor = styled.div`
   max-width: 600px;
@@ -16,7 +17,7 @@ const ContenedorFormulario = styled.div`
 `
 
 const AppContainer = () => {
-  
+
   const [ resumen, guardarResumen ] = useState({
     cotizacion: 0,
     datos: {
@@ -25,6 +26,8 @@ const AppContainer = () => {
       plan: ''
     }
   });
+
+  const [ cargando, guardarCargando ] = useState(false);
 
   // Extraer datos 
    
@@ -38,13 +41,16 @@ const AppContainer = () => {
       <ContenedorFormulario>
         <Formulario 
           guardarResumen={guardarResumen}
+          guardarCargando={guardarCargando}
         /> 
+        {cargando ? <Spinner /> : null}
         <Resumen
           datos={datos} 
         />
-        <Resultado 
+        {!cargando ? <Resultado 
           cotizacion={cotizacion}
-        />
+        /> : null}
+        
 
       </ContenedorFormulario>
     </Contenedor>
