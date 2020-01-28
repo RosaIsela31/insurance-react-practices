@@ -23,3 +23,8 @@ export const calcularMarca = (marca) => {
 
    return incremento;
 }
+
+// Calcula el tipo de seguro 
+export const obtenerPlan = (plan) => {
+  return (plan === 'basico') ? 1.20 : 1.50;
+}

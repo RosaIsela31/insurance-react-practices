@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from '@emotion/styled';
-import { obtenerDiferenciaYear, calcularMarca } from '../helper';
+import { obtenerDiferenciaYear, calcularMarca, obtenerPlan } from '../helper';
 
 const Campo = styled.div`
   display: flex;
@@ -52,7 +52,7 @@ const Error = styled.div`
   margin-bottom: 2rem;
 `;
 
-const Formulario = () => {
+const Formulario = ({ guardarResumen }) => {
   const [ datos, guardarDatos ] = useState({
     marca: '',
     year: '',
@@ -102,8 +102,19 @@ const Formulario = () => {
 
     // Plan básico aumenta  20%
     // Plan completo aumenta 50%
+    const incrementoPlan = obtenerPlan(plan)
+    resultado = parseFloat( incrementoPlan * resultado ).toFixed(2); 
+    
+    console.log(resultado);
 
     // Total
+    guardarResumen({
+      cotización: resultado,
+      datos: {
+        datos
+      }
+      
+    })
 
   }
 

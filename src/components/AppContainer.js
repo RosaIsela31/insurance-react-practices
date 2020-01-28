@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
 import Header from './Header';
 import Formulario from './Formulario';
+import Resumen from './Resumen';
+
 
 const Contenedor = styled.div`
   max-width: 600px;
@@ -14,13 +16,31 @@ const ContenedorFormulario = styled.div`
 `
 
 const AppContainer = () => {
+  const [ resumen, guardarResumen ] = useState({
+    cotizacion: 0,
+    datos: {
+      marcar: '',
+      year: '',
+      plan: ''
+    }
+  });
+
+  // Extraer datos 
+   
+  const { datos } = resumen;
+
   return ( 
     <Contenedor>
       <Header 
         titulo='Cotizador de seguros'
       />
       <ContenedorFormulario>
-        <Formulario /> 
+        <Formulario 
+          guardarResumen={guardarResumen}
+        /> 
+        <Resumen
+          datos={datos} 
+        />
 
       </ContenedorFormulario>
     </Contenedor>
