@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from '@emotion/styled'; 
 import { primerMayuscula } from '../helper';
 
@@ -13,9 +14,7 @@ const ContenedorResumen =  styled.div`
 const Resumen = ({datos}) => {
   // Extraer datos
 
-  const {marca, year, plan} = datos;
-  console.log(marca);
-  
+  const {marca, year, plan} = datos;  
 
   if( marca === '' || year === '' || plan === '') return null;
   
@@ -31,4 +30,7 @@ const Resumen = ({datos}) => {
    );
 }
  
+Resumen.propTypes = {
+  datos: PropTypes.object.isRequired
+}
 export default Resumen;
